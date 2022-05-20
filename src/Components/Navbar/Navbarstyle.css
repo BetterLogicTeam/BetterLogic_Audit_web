@@ -1,0 +1,126 @@
+
+
+.navbardrop{
+    color: white;
+    
+}
+.conta{
+    position: relative;
+}
+.navbgcolor{
+    background-image: url('../../Assestes/1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+}
+.navbarBTN{
+    color: white;
+    
+    font-size: 12px;
+    padding: 10px 17px 10px 17px;
+    background-color: #e5453d;
+
+}
+
+
+.First_Col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-top: rem;
+    
+}
+.seond_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.name_first{
+    font-weight: 700;
+    font-size:30px;
+    color: white;
+
+ 
+}
+.name_second{
+   /* font-size: 20px; */
+   letter-spacing:4px;
+   margin-left: 5px;
+   margin-top: -2.5rem;
+   color: white;
+
+   
+  
+  
+  
+}
+.TextdecorationNFT145{
+    text-decoration: none !important;
+}
+
+.navbartext{
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+ 
+ align-items: center;
+    margin-left: 15px
+    
+   
+}
+.navbartext:hover{
+    color: linear-gradient(to left, #85abe4 0%, #55e725 100%);
+
+
+}
+.navbartext:active{
+    color: white;
+}
+
+
+.navbarBTN{
+    color: white;
+    
+    font-size: 17px;
+    padding: 5px 17px 5px 17px;
+    background-color: #e5453d;
+
+}
+.navbardrop{
+    color:white;
+    font-size: 15px;
+   
+}
+.navbardrop:hover{
+    color:rgb(230, 196, 47) ;
+    background-color:rgb(42, 38, 38);
+}
+
+
+
+/* side bar */
+
+
+.navtop{
+  
+}
+
+.navtoggle{
+   
+   
+}
+ 
+
+@media (min-width:300px) and (max-width:600px) {
+    .navimgw{
+        width:120px;
+    }  
+    
+
+}
+
+  
+ 
+  

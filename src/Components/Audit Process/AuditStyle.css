@@ -1,0 +1,62 @@
+.Auditdiv{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+
+}
+.LinkAudit{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+
+}
+
+.LinkAudit:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+}
+.Phase{
+    color: #9d9d9d;
+    font-weight: bold;
+    font-family: Roboto;
+    
+}
+.Phase p{
+    margin-top: 1rem;
+}
+
+@media (min-width: 1100px) {
+    .Phase {
+    display: none;
+    }
+}
+
+.Phase2{
+    color: #e5453d;
+    font-family: Roboto;
+    margin-top: -3rem;
+    
+}
+.newclassP{
+    color: #979797;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+.auditpic{
+  
+    margin-left: -5rem;
+    margin-bottom: 5rem;
+}
+@media (max-width: 1100px) {
+    .auditpic {
+    display: none;
+    }
+    .PhaseP{
+        color: #e5453d;
+        font-family: Roboto;
+        font-size: 20px;
+
+    }
+}
+#Auditprocessdiv{
+    height: auto;
+}

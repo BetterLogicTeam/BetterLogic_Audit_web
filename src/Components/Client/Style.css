@@ -1,0 +1,177 @@
+
+
+@media (max-width: 530px) and (min-width:280px) {
+    .card {
+     width: 100%;
+    /* margin-right: 2rem; */
+    margin-top: 2rem;  
+    height: 100px;
+    
+    }
+    
+}
+
+@media (max-width: 3000px) and (min-width:530px) {
+    .card{
+        width: 190px;
+        height: 100px;
+        margin-left: 2rem;
+        margin-top: 2rem;  
+     
+    }
+    .Imagelogo{
+        margin-top: 1rem;
+        
+    }
+    
+}
+
+.newdiv_name{
+    display: flex;
+}
+.newdiv_name span{
+    color: black;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+.Partnerssection{
+    height: auto;
+}
+.card:hover{
+    box-shadow: wheat;
+}
+
+.carddiv{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* @media (min-width: 450px) and (max-width:850px) {
+    .carddiv {
+     width: 90vw;
+
+    }
+} */
+
+.imgdiv{
+    display: flex;
+    /* flex-direction: column; */
+   /* align-self: center; */
+   align-self: center;
+    justify-content: center;
+   margin-top: 1rem;
+  
+}
+.headingclient{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+    margin:5rem 0 0 0;
+}
+.linktag{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.linktag:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+}
+
+/* Why Choose CertiK? */
+
+.Certik{
+    background-color: #f9f9f9;
+}
+.headingCertik{
+    /* text-align: left; */
+  margin-top: 50%;
+}
+@media (min-width:280px) and (max-width:600px) {
+
+    .headingCertik{
+        text-align: center;
+
+    }
+    .headingARB{
+        font-size: 20px;
+       
+    }
+    .carddiv{
+ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80vw;
+    }
+    
+}
+
+.newdiv_name img{
+    width: 60px;
+}
+
+@media (min-width:600px) and (max-width:3000px) {
+
+    .checknew{
+       
+            text-align: left;
+          margin-top: 50%;
+        
+
+    }
+    .headingARB{
+        font-size: 30px;
+       
+    }
+   
+    
+}
+
+
+.imgCertik{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 600px) {
+    .ClientDiv2 {
+
+    display: none;
+    }
+   
+
+}
+
+
+@media (max-width: 600px) {
+    .imgCertik {
+    display: none;
+    }
+    .clientdiv2P{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(0,0,0,.85);
+        opacity: 0.9;
+    }
+   
+}
+
+
+
+@media (min-width:600px) and (max-width:800px) {
+    
+    .carddiv{
+ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+}
+
+  

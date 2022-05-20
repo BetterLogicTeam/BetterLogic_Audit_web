@@ -1,0 +1,153 @@
+.QButton{
+    background-color: #e5453d;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+}
+.QuestionsHeading{
+    justify-content: space-between;
+}
+.ButtonDiv{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+.QuestionH{
+    color: rgba(0,0,0,.85);
+    
+}
+.Qheading{
+    font-size: 19px;
+    margin-top: 3rem;
+    text-align: left;
+    color: #000000;
+}
+.QTextP{
+    color: #929292;
+    margin-top: 1rem;
+    font-size: 15px;
+   opacity: 0.9;
+   text-align: justify;
+}
+
+.footeruperP{
+    color: #929292;
+}
+
+/* ------------------------- */
+.FotterUper{
+    background-color: #f9f9f9;
+}
+
+
+.FooterText{
+    margin-top: 5rem;
+    color: #f9f9f9;
+}
+.footertextcheck{
+    text-align: left;
+}
+.whatsaapherebg{
+ background: none;
+ background-color:none;
+ border:none;
+ outline:none;
+}
+
+@media (min-width:600px) and (max-width:4000px) {
+    .Footer{
+        background-color: rgba(0,0,0,.85);;
+        height: 90%;
+       
+    }
+}
+
+@media (min-width:280px) and (max-width:600px) {
+
+    .footertextcheck{
+  /* justify-content: center; */
+  text-align: center;
+    font-size: 15px;
+    }
+    
+   .Footer{
+    background-color: rgba(0,0,0,.85);;
+    height: 90%;
+    
+   
+   
+  }
+    
+
+
+.QuestionH{
+    font-size: 20px;
+}
+.btninres{
+   
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+}
+
+.ButtonDiv{
+    justify-content: center;
+}
+}
+.linedsocial{
+    font-size: 20px;
+    margin-left: 1rem;
+    border: solid white 1px;
+    border-radius: 300px;
+    padding: 8px 10px 5px 10px ;
+    color: white;
+    /* background: linear-gradient(to left, #2e71d6 0%, #8ec27d 100%); */
+    
+  
+}
+.FooterText{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-end;
+}
+.footerimg{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.footer_secondText{
+    color: white;
+    text-align: left;
+}
+.span_group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+}
+.linedsocial:hover{
+    /* color:#2e71d6 ; */
+    background: linear-gradient(to left, #2e71d6 0%, #76cc59 100%);
+
+}
+
+.line{
+    display: flex;
+    height: 1px;
+    margin-top: 2rem;
+    background: linear-gradient(to left, #2e71d6 0%, #76cc59 100%);
+    /* background-color: linear-gradient(to left, #2e71d6, #76cc59 ); */
+}
+.Atagedec{
+    color: rgba(255, 255, 255, 0.561);
+    text-decoration: none;
+   
+}
+.Atagedec:hover{
+    color: white;
+    text-decoration:none;
+}

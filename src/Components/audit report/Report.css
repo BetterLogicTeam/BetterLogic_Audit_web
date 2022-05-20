@@ -1,0 +1,115 @@
+
+.ReportAudit{
+    background-color: #f9f9f9;
+}
+.ReportDiv1{
+    text-align: left;
+    /* margin-top: 6rem; */ 
+}
+.RepHeading{
+    text-align: left;
+}
+
+
+@media (min-width:300px) and (max-width:600px) {
+    .ReportDiv1{
+        text-align: center;
+        margin-top: -8rem; 
+    }
+    .RepHeading{
+        color: rgba(0,0,0,.85);
+        font-family: Roboto;
+        font-size: 22px;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .RepText{
+    
+        color: #929292;
+        margin-top: 1rem;
+        font-size: 15px;
+       
+       text-align: justify;
+    }
+    
+}
+@media (min-width:600px) and (max-width:1800px) {
+    
+    .RepHeading{
+        color: rgba(0,0,0,.85);
+        font-family: Roboto;
+        font-size: 30px;
+        text-align: left;
+        
+    }
+    .RepText{
+    
+        color: #929292;
+        margin-top: 3rem;
+        font-size: 15px;
+       
+       text-align: left;
+    }
+    
+}
+/* .flotdiv{
+    
+    
+}
+
+.work1{
+   
+    
+} */
+.textSection{
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+   
+}
+.heading{
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+   text-align: left;
+}
+.textSmartP{
+    font-size: 13px;
+    text-align: left;
+    font-family: Roboto;
+}
+.WorkContainer{
+    margin-top: 15rem !important;
+}
+
+
+.ArrowRotate{
+    transform: rotate(90deg);
+    margin-top: -5rem;
+}
+
+@media (max-width: 1250px) {
+    .Showinfull {
+    display: none;
+    }
+}
+
+@media (min-width: 1250px) {
+    .resSection {
+    display: none;
+    }
+}
+.reportImage{
+ display: flex;
+ flex-direction: row;
+justify-content: end;
+
+    
+}
+@media (max-width: 1250px) {
+    .reportImage {
+        justify-content: center;
+    }
+}
+

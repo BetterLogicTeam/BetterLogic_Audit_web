@@ -1,0 +1,31 @@
+.inputfield{
+    border-radius: 15px;
+    background-color: rgb(240, 247, 250);
+   
+}
+.textinput{
+    color: #707070;
+     font-family: Roboto;
+    font-size: 15px;
+}
+.required{
+    color: red;
+}
+.smalltext{
+    color: rgb(119, 166, 206);
+    font-size: 12px;
+}
+.btnhome{
+    color: white;
+ 
+font-weight: bold;
+    padding: 10px 17px 10px 17px;
+    background-color: #e5453d;
+    margin-bottom: 6rem;
+}
+.formdiv{
+    height: 90% !important;
+    overflow: hidden;
+    
+   
+}

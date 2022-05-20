@@ -1,0 +1,17 @@
+.Mainiv{
+ width: 100%;
+    height: 600px;
+/* margin-left: 27rem; */
+display: flex;
+flex-direction: row;
+
+background-color: black;
+}
+
+.Slidepic{
+    width:100% ;
+   
+}
+.uperdiv{
+    width: 80%;
+}

@@ -1,0 +1,85 @@
+.Headingh1{
+    font-size: 10px ;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .resp {
+        width: 250px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .img {
+        width: 180px;
+        margin-left: 0.2rem;
+        margin-top: -16rem;
+    }
+    .Headingh1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    .img2 {
+        width: 185px;
+        margin-left: 0.2rem;
+        margin-top: -16rem;
+    }
+}
+
+
+@media (min-width: 600) and (max-width: 4000) {
+    .resp {
+        width: 600rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 4000px) {
+    .img {
+        width: 145px;
+        margin-left: rem;
+        margin-top: -13.5rem;
+    }
+    .Headingh1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 600px) and (max-width: 4000px) {
+    .img2 {
+        width: 152px;
+        margin-left: rem;
+        margin-top: -13.5rem;
+    }
+}
+
+
+
+
+
+/* ---------------------------------- */
+
+
+  
+  .circle{
+   
+   
+    position:absolute;
+  
+    overflow:hidden;
+  
+    animation: circle 3s linear infinite;
+  } 
+
+  @keyframes circle{
+    from{ transform: rotate(-90deg); }
+      to{ transform: rotate(90deg); }
+    
+
+
+  }
